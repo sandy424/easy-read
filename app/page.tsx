@@ -28,12 +28,27 @@ export default function Home() {
         </div>
       </div>
 
+      {/* 사진 업로드 영역 */}
       <h2 className="font-bold text-xl mt-10">사진을 넣어주세요</h2>
-      <div className="border border-transparent rounded-xl bg-white w-full p-4 mt-8 flex flex-col items-center justify-center">
-        <div className="border border-blue-400 border-dashed w-full h-48 rounded-xl">
-
+      <div className="border border-transparent rounded-xl bg-white w-[800px] p-4 mt-8">
+        <div className="border border-blue-400 border-dashed w-full rounded-xl flex flex-col items-center justify-center p-10">
+          <img src="/picture.png" alt="사진" />
+          <span className="mt-5 text-center">
+            사진을 넣어주세요<br /> 또는 눌러서 선택하세요
+          </span>
+          <input type="file" id="file" className="mt-12 hidden" />
+          <label
+            htmlFor="file"
+            className="px-5 py-3 bg-green-200 text-gray-700 font-medium rounded-3xl cursor-pointer hover:bg-green-300 mt-8 flex gap-2 items-center"
+          >
+            <img src="/upload.png" alt="업로드" className="w-[22px]"/>
+            사진 고르기
+          </label>
         </div>
       </div>
+
+      {/* 글 바꾸기 버튼 */}
+      <button className="px-5 py-2 border border-transparent bg-green-600 rounded-lg text-white font-regular text-base cursor-pointer hover:bg-green-700 mt-8">글 바꾸기</button>
     </div>
   );
 }
