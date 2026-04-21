@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <div className="bg-green-100 w-full flex flex-col items-center p-12 font-ko">
+    <div className="bg-teal-50 w-full flex flex-col items-center p-12 font-ko">
       <h1 className="font-bold text-xl">글을 쉽게 읽을 수 있어요</h1>
       <p className="flex flex-col items-center mt-8 text-center">
         <span>이런 글을 쉽게 바꿔드립니다</span>
