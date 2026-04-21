@@ -7,5 +7,6 @@ export default function Header() {
                 <h3 className="font-en font-semibold text-green-600 text-2xl">EZREAD</h3>
             </Link>
         </div>
+        // 로그인&회원가입
     )
 }

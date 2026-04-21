@@ -49,22 +49,6 @@ export default function Home() {
 
       {/* 글 바꾸기 버튼 */}
       <button className="px-5 py-2 border border-transparent bg-green-600 rounded-lg text-white font-regular text-base cursor-pointer hover:bg-green-700 mt-8">글 바꾸기</button>
-
-      {/* 변환 기록 영역 */}
-      <div className="flex gap-6 px-4 py-8 mt-12 w-[800px] justify-between">
-        <div className="flex items-center gap-4">
-          <img src="/historyFile.png" alt="파일" className="w-[32px]"/>
-          <h2 className="font-bold text-xl">변환 기록</h2>
-        </div>
-        <button className="flex items-center gap-2 px-3 py-2 bg-white/70 font-medium border-solid border border-red-500 rounded-lg hover:bg-red-500 hover:text-white" >
-          <img src="/trash.png" alt="쓰레기통" />
-          삭제하기
-        </button>
-      </div>
-
-      <div className="border border-dashed border-gray-300 w-[800px] h-[400px] rounded-xl p-4 flex flex-col items-center justify-center bg-white/55">
-        <p className="text-center ">아직 변환한 기록이 없어요<br/>사진을 넣고 <span className="text-green-700 font-bold">글 바꾸기</span>를 해보세요 !</p>
-      </div>
     </div>
   );
 }
