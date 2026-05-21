@@ -1,6 +1,6 @@
 'use client'
 import { useEffect, useState } from "react";
-import { getPrivateQuestions } from "../apis/login"
+import { getPrivateQuestions } from "../api/login"
 
 export default function LoginPage() {  
     
